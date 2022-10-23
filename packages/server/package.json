@@ -1,0 +1,9 @@
+{
+  "name": "@westie/server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@westie/common": "1.0.0"
+  }
+}

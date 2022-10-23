@@ -1,0 +1,8 @@
+{
+  "name": "monorepo",
+  "description": "A simple yarn workspace experiment",
+  "author": "Mark Wood-Patrick",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["packages/*"]
+}
