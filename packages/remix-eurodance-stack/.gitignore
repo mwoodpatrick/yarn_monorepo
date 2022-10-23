@@ -1,0 +1,27 @@
+node_modules
+
+/build
+/public/build
+.env
+
+/cypress/screenshots
+/cypress/videos
+/prisma/data.db
+/prisma/data.db-journal
+
+/app/styles/tailwind.css
+
+
+# Yarn 2
+# https://stackoverflow.com/questions/62456078/yarn-install-leads-to-cannot-find-module-yarn-berry-js
+.yarn/*
+.pnp.*
+# Keep those in the repo to have a share version
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Add ignoring built server
+/api
